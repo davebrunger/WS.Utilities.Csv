@@ -253,3 +253,6 @@ paket-files/
 
 # NuGet Files
 *.nuspec
+
+# Mac OSX files
+*.DS_Store
