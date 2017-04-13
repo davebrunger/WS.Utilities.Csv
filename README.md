@@ -26,7 +26,7 @@ Utilities to aid parsing of CSV files. It is available as a [Nuget package](http
     }
 
 ### Reading CSV data from a file as objects
-    var data = new StreamEnumerable(stream);
+    var data = new FileEnumerable(filename);
     var tokens = new CsvTokens(data);
     var records = new CsvRecords(tokens);
     var createSomethingOrOther = (rowNumber, columns) => new SomethingOrOther(columns[0], columns[1], columns[2]);
